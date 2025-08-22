@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>Моё портфолио</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>О себе</h2>
+            <p>Добро пожаловать в моё портфолио! Я веб-разработчик с навыками HTML, CSS и JavaScript.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Мои проекты</h2>
+            <ul>
+                <li><a href="№">Проект 1</a></li>
+                <li><a href="№">Проект 2</a></li>
+                <li><a href="№">Проект 3</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Свяжитесь со мной</h2>
+            <form id="contact-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+                <div class="error-message" id="name-error"></div>
+
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email">
+                <div class="error-message" id="email-error"></div>
+                
+                <label for="message">Сообщение:</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+                <div class="error-message" id="message-error"></div>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Моё портфолио.</p>
+
+        <div class="icon-container">
+            <a href="https://github.com/VladimirOlekhnovich" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/Vladimir230814" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.3/purify.min.js" 
+    integrity="sha512-JGN62+Z7itcihLDnhzqWXwUiIZPJrC2hoBICRwTEC/RQ3qdQuaQmUGHOAALE9y2lAGrAxNO71t10ZaJLlRpz2g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
